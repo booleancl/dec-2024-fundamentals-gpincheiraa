@@ -44,9 +44,9 @@ export function namedFunctions() {
 
   return {
     normalFunction: normalFunction,
-    anonymousFunction: anonymous,
+    // anonymousFunction: anonymous,
     // lo anterior es igual a esto por eso pasa la prueba
-    // anonymousFunction: function () {}
+    anonymousFunction: function () {}
   }
 }
 
@@ -93,7 +93,7 @@ export function expressionFunctions() {
     https://developer.mozilla.org/en-US/docs/Glossary/IIFE#the_module_pattern
   */
 
-  // return function(){}
-  return function named(){}
+  return function(){}
+  // return function named(){}
 }
 
